@@ -76,6 +76,36 @@
         }
     }
 
+    @media (min-width: 2300px) {
+        img {
+            height: 55rem;
+            width: 65rem;
+            border-radius: 20px;
+        }
+
+        figcaption {
+            font-size: 55px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 90px;
+        }
+
+        p {
+            max-width: 75ch;
+        }
+
+        body {
+            font-size: 45px;
+        }
+
+        .audio {
+            width: 40%;
+            height: 50px;
+        }
+    }
+
     footer {
         background: var(--footercol);
         display: flex;
@@ -120,27 +150,27 @@
         <figure class="container"> <img src="gil.jpg">
             <figcaption>Gil</figcaption>
             <p>Gatunek małego ptaka z rodziny łuszczakowatych, zamieszkujący Eurazję. Nie jest zagrożony.</p>
-            <audio controls="controls" src="gil.mp3"></audio>
+            <audio class="audio" class="audio" controls="controls" src="gil.mp3"></audio>
         </figure>
         <figure class="container"> <img src="szpak.jpg">
             <figcaption>Szpak</figcaption>
             <p>Gatunek średniej wielkości ptaka z rodziny szpakowatych. Częściowo wędrowny. Pierwotnie zamieszkiwał wyłącznie Eurazję. Nie jest zagrożony wyginięciem.</p>
-            <audio controls="controls" src="szpak.mp3"></audio>
+            <audio class="audio" controls="controls" src="szpak.mp3"></audio>
         </figure>
         <figure class="container"> <img src="wilga.jpg">
             <figcaption>Wilga</figcaption>
             <p>Gatunek średniej wielkości ptaka wędrownego z rodziny wilgowatych, jedyny z tej rodziny rozmnażający się w północnej strefie umiarkowanej. Nie jest zagrożony wyginięciem.</p>
-            <audio controls="controls" src="wilga.mp3"></audio>
+            <audio class="audio" controls="controls" src="wilga.mp3"></audio>
         </figure>
         <figure class="container"> <img src="spiewak.jpg">
             <figcaption>Śpiewak</figcaption>
             <p>Wierzch ciała brązowy o ciepłym odcieniu, kuper i pokrywy nadogonowe oliwkowe, ogon i wierzch głowy pomarańczowobrązowe. Spód ciała kremowy z gęstymi brązowymi plamkami.</p>
-            <audio controls="controls" src="spiewak.mp3"></audio>
+            <audio class="audio" controls="controls" src="spiewak.mp3"></audio>
         </figure>
         <figure class="container"> <img src="jaskolka.jpg">
             <figcaption>Jaskółka</figcaption>
             <p>Gatunek niewielkiego ptaka wędrownego z rodziny jaskółkowatych.</p>
-            <audio controls="controls" src="jaskolka.mp3"></audio>
+            <audio class="audio" controls="controls" src="jaskolka.mp3"></audio>
         </figure>
     </div>
 </body>

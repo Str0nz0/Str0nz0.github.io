@@ -33,6 +33,13 @@
         height: 10%;
     }
 
+    figure {
+        background-color: white;
+        border-radius: 20px;
+        padding: 20px;
+        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    }
+
     figcaption {
         font-size: 35px;
     }
@@ -72,9 +79,16 @@
         }
 
         p {
-            max-width: 75ch;
+            max-width: 55ch;
         }
     }
+
+    @media (min-width: 1300px) {
+        figure {
+            padding: 35px;
+        }
+    }
+
 
     @media (min-width: 2300px) {
         img {
@@ -87,13 +101,17 @@
             font-size: 55px;
         }
 
+        figure {
+            padding: 50px;
+        }
+
         h1 {
             text-align: center;
             font-size: 90px;
         }
 
         p {
-            max-width: 75ch;
+            max-width: 45ch;
         }
 
         body {

@@ -74,6 +74,17 @@
         color: black;
         transition: 0.3s all ease-out;
     }
+
+    a:-webkit-any-link#b {
+        text-decoration: none;
+        color: black;
+        transition: 0.3s all ease-out;
+    }
+
+    a:hover#b {
+        color: #FFDBB5;
+        transition: 0.3s all ease-out;
+    }
     </style>
 </head>
 
@@ -82,7 +93,7 @@
     <section>
         <h2 id="a_top">Tutaj zdefiniowaliśmy kotwicę o nazwie <i>a_top</i></h2>
         <p>
-            <a href="#a_bottom">To jest link do kotwicy dolnej</a>
+            <a id="b" href="#a_bottom">To jest link do kotwicy dolnej</a>
             <figure>
                 <img width="789" src="CZERWONAA.png">
         </p>
@@ -103,7 +114,7 @@
     <section>
         <h2 id="a_bottom">Tutaj została zdefiniowana kotwica o nazwie <i>a_bottom</i></h2>
         <p>
-            <a href="#a_top">To jest link do kotwicy górnej</a>
+            <a id="b" href="#a_top">To jest link do kotwicy górnej</a>
             <figure>
                 <img width="789" src="SZ@RA.png">
                 <figcaption>

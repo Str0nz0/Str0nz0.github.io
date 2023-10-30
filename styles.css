@@ -176,7 +176,7 @@ a:-webkit-any-link {
 }
 
 a:hover {
-  color: white;
+  color: skyblue;
   transition: 0.3s all ease-out;
 }
 
@@ -187,7 +187,7 @@ a:-webkit-any-link#home {
 }
 
 a:hover#home {
-  color: black;
+  color: skyblue;
   transition: 0.3s all ease-out;
 }
 

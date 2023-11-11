@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    height: 100%;
 }
 
 :root {
@@ -27,13 +28,14 @@ body {
     background-size: auto;
     background-attachment: fixed;
     margin: 0;
-    margin-top: 0;
     font-size: 25px;
     font-family: Helvetica, sans-serif;
+    color: white;
 }
 
 main {
     padding-top: 70px;
+    min-height: 83.5%;
 }
 
 footer {
@@ -45,8 +47,6 @@ footer {
     border-top-right-radius: 10px;
     height: 70px;
     margin-top: 20px;
-    position: fixed;
-    bottom: 0;
     width: 100%;
 }
 
@@ -62,20 +62,13 @@ h1 {
     padding-top: 20px;
 }
 
-h2 {
-    color: white;
-}
-
 p {
     max-width: 55ch;
+    margin: 0;
 }
 
 figcaption {
     text-align: center;
-}
-
-figure p {
-    color: white;
 }
 
 footer h2 {
@@ -107,9 +100,14 @@ figure {
     transition: 0.3s all ease-out;
 }
 
+header {
+    box-shadow: 0px 7px 60px 4px rgba(0, 0, 0, 0.5);
+}
+
 img:hover,
-figure:hover {
-    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+figure:hover,
+footer {
+    box-shadow: 0px 0px 60px 4px rgba(0, 0, 0, 0.5);
 }
 
 /*^Wrapping blocks*/
@@ -122,27 +120,15 @@ i {
 
 a:-webkit-any-link {
     text-decoration: none;
-    color: black;
-}
-
-a:hover,
-a:hover#navig {
-    color: skyblue;
-}
-
-a#navig {
-    text-decoration: none;
     color: white;
+}
+
+a:hover {
+    color: skyblue;
 }
 
 figcaption a: {
     text-decoration: underline;
-    color: black;
-}
-
-i:hover {
-    cursor: pointer;
-    color: skyblue;
 }
 
 /*^Links*/

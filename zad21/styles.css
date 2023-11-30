@@ -206,34 +206,42 @@ figcaption a: {
 
 #color1 {
     background-color: #D8DCFF;
+    border: dashed;
 }
 
 #color2 {
     background-color: #C3C5F8;
+    border: dotted;
 }
 
 #color3 {
     background-color: #AEADF0;
+    border: double;
 }
 
 #color4 {
     background-color: #B99DC2;
+    border: groove yellow;
 }
 
 #color5 {
     background-color: #C38D94;
+    border: ridge;
 }
 
 #color6 {
     background-color: #B57983;
+    border: inset violet;
 }
 
 #color7 {
     background-color: #A76571;
+    border: outset blue;
 }
 
 #color8 {
     background-color: #565676;
+    border: dotted yellowgreen;
 }
 
 #color9 {

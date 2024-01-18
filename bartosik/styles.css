@@ -52,7 +52,7 @@ section {
 }
 
 header {
-    background: var(--footercol);
+    background-color: var(--footercol);
     display: flex;
     justify-content: center;
     align-items: center;
